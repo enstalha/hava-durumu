@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ders-19</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- ! Navbar -->
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="https://s.tmimgcdn.com/scr/800x500/223700/profesyonel-araba-logo-tasarimi_223711-original.jpg" alt="" width="85px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Araçlarımız
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#" id="toyota">Toyota</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#" id="renault">Renault</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#" id="volkswagen">Volkswagen</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <span class="text-white fw-bold pt-2 me-4" id="result">0</span>
+              <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button id="searchBtn" class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ! Content Alanı -->
+      <div class="container my-5">
+        <div class="row">
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img class="boyut" src="https://cdn.motor1.com/images/mgl/jpV9R/s3/toyota-corolla-gr-sport.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <img src="img/toyota-logo.png" alt="" width="60px" class="mb-4">
+                      <h5 class="card-title">Toyota</h5>
+                      <p class="card-text">Toyota Corolla 1.6 Manuel</p>
+                      <p class="card-text">1.450.000₺</p>
+                      <button class="btn btn-outline-success add-to-card">Sepeti Arttır</button>
+                      <button class="btn btn-outline-danger remove-to-card">Sepeti Azalt</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img class="boyut" src="https://ajansotomobil.com/media/gallery/1126/17782.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <img src="img/renault-logo.png" alt="" width="60px" class="mb-4">
+                      <h5 class="card-title">Renault</h5>
+                      <p class="card-text">Renault Megane 1.6 Manuel</p>
+                      <p class="card-text">1.750.000₺</p>
+                      <button class="btn btn-outline-success add-to-card">Sepeti Arttır</button>
+                      <button class="btn btn-outline-danger remove-to-card">Sepeti Azalt</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img class="boyut" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxCcoP1W-IGfxm81KqH935IZbIqRTDURTH9A&s" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <img src="img/volkswagen-logo.png" alt="" width="100px" class="mb-1">
+                      <h5 class="card-title">Volkswagen</h5>
+                      <p class="card-text">Volkswagen Golf 1.5 Otomatik</p>
+                      <p class="card-text">2.050.000₺</p>
+                      <button class="btn btn-outline-success add-to-card">Sepeti Arttır</button>
+                      <button class="btn btn-outline-danger remove-to-card">Sepeti Azalt</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img class="boyut" src="https://scene7.toyota.eu/is/image/toyotaeurope/Toyota+Hilux+%282%29?wid=1280&fit=fit,1&ts=0&resMode=sharp2&op_usm=1.75,0.3,2,0" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <img src="img/toyota-logo.png" alt="" width="60px" class="mb-4">
+                      <h5 class="card-title">Toyota</h5>
+                      <p class="card-text">Toyota Hilux 2.0 Manuel</p>
+                      <p class="card-text">1.350.000₺</p>
+                      <button class="btn btn-outline-success add-to-card">Sepeti Arttır</button>
+                      <button class="btn btn-outline-danger remove-to-card">Sepeti Azalt</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img class="boyut" src="https://cdn.motor1.com/images/mgl/4MReq/s3/renault-talisman-restyling-2020.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <img src="img/renault-logo.png" alt="" width="60px" class="mb-4">
+                      <h5 class="card-title">Renault</h5>
+                      <p class="card-text">Renault Talisman 1.6 Manuel</p>
+                      <p class="card-text">1.750.000₺</p>
+                      <button class="btn btn-outline-success add-to-card">Sepeti Arttır</button>
+                      <button class="btn btn-outline-danger remove-to-card">Sepeti Azalt</button>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <img class="boyut" src="https://i0.shbdn.com/photos/94/13/49/x5_1171941349oxw.jpg" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                      <img src="img/volkswagen-logo.png" alt="" width="100px" class="mb-1">
+                      <h5 class="card-title">Volkswagen</h5>
+                      <p class="card-text">Volkswagen Passat 1.5 Otomatik</p>
+                      <p class="card-text">2.850.000₺</p>
+                      <button class="btn btn-outline-success add-to-card">Sepeti Arttır</button>
+                      <button class="btn btn-outline-danger remove-to-card">Sepeti Azalt</button>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </div>
+
+
+
+    <!-- ! Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- ! External JS -->
+    <script src="script.js"></script>
+</body>
+</html>

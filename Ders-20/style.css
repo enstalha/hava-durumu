@@ -1,0 +1,18 @@
+body{
+    background-image: url("img/galaxy.gif");
+}
+
+.yukseklik{
+    width: 20%;
+    height: 40px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid white;
+    padding: 30px;
+}

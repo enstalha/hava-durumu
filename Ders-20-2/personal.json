@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "Furkan",
+        "surname": "İlaslan",
+        "age": 27,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-male.jpg",
+        "country": "Türkiye",
+        "city": "Çanakkale"
+    },
+    {
+        "id": 2,
+        "name": "Enis Talha",
+        "surname": "Şahin",
+        "age": 19,
+        "url": "https://yildirim23nolukarapinarasm.com/images/uploads/fade68c1b213093524_images-personel-erkek_QBNW.jpg",
+        "country": "Türkiye",
+        "city": "Çanakkale"
+    },
+    {
+        "id": 3,
+        "name": "Ayşe",
+        "surname": "Yılmaz",
+        "age": 25,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-female.jpg",
+        "country": "Türkiye",
+        "city": "Ankara"
+    },
+    {
+        "id": 4,
+        "name": "Mehmet",
+        "surname": "Kaya",
+        "age": 30,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-male.jpg",
+        "country": "Türkiye",
+        "city": "İstanbul"
+    },
+    {
+        "id": 5,
+        "name": "Elif",
+        "surname": "Demir",
+        "age": 22,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-female.jpg",
+        "country": "Türkiye",
+        "city": "İzmir"
+    },
+    {
+        "id": 6,
+        "name": "Ahmet",
+        "surname": "Çelik",
+        "age": 29,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-male.jpg",
+        "country": "Türkiye",
+        "city": "Bursa"
+    },
+    {
+        "id": 7,
+        "name": "Zeynep",
+        "surname": "Acar",
+        "age": 26,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-female.jpg",
+        "country": "Türkiye",
+        "city": "Antalya"
+    },
+    {
+        "id": 8,
+        "name": "Fatih",
+        "surname": "Öztürk",
+        "age": 35,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-male.jpg",
+        "country": "Türkiye",
+        "city": "Adana"
+    },
+    {
+        "id": 9,
+        "name": "Deniz",
+        "surname": "Korkmaz",
+        "age": 23,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-female.jpg",
+        "country": "Türkiye",
+        "city": "Eskişehir"
+    },
+    {
+        "id": 10,
+        "name": "Emre",
+        "surname": "Yıldız",
+        "age": 31,
+        "url": "https://www.ds-istanbul.net/Files/assets/teacher-placeholder-male.jpg",
+        "country": "Türkiye",
+        "city": "Gaziantep"
+    }
+]

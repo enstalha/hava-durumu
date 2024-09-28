@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gezegen Uygulaması</title>
+
+    <!-- !  Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- ! External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container mt-5 text-center">
+        <h1 class="text-danger text-center">Kilogram Dönüştürücü</h1>
+        <form class="d-flex justify-content-center align-items-center gap-2">
+            <input type="text" id="kiloInput" placeholder="Kilogramınızı giriniz..." class="yukseklik">
+
+            <select class="yukseklik">
+                <option selected disabled>Seçim Yap</option>
+                <option>Dünya</option>
+                <option>Jüpiter</option>
+                <option>Mars</option>
+                <option>Merkür</option>
+                <option>Ay</option>
+                <option>Neptün</option>
+                <option>Plüto</option>
+                <option>Satürn</option>
+                <option>Uranüs</option>
+                <option>Venüs</option>
+            </select>
+            <button id="btnHesapla" class="btn btn-primary yukseklik">Hesapla</button>
+        </form> 
+    </div>
+
+    <div class="container flex-container m-auto mt-4">
+        <div class="img-container me-4">
+            <img id="for-img" width="450px" height="450px">
+        </div>
+    
+        <div class="content-container text-center">
+            <p id="sonuc" class="text-white m-0 fs-3">
+                Kilogram girip bir gezegen seçerek başlayabilirsiniz.
+            </p>
+        </div>
+    </div>
+
+
+
+    <!-- ! Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- ! External JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
